@@ -21,7 +21,7 @@ export default defineConfig({
       fontsource: {
         families: [
           {
-            name: 'Roboto',
+            name: 'Plus Jakarta Sans',
             weights: [100, 300, 400, 500, 700, 900],
             styles: ['normal', 'italic'],
           },
@@ -56,7 +56,7 @@ export default defineConfig({
         api: 'modern-compiler',
       },
       scss: {
-        api:'modern-compiler',
+        api: 'modern-compiler',
       },
     },
   },

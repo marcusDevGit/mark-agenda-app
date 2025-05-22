@@ -18,6 +18,7 @@
     "vee-validate": "^4.15.0",
     "vue": "^3.5.13",
     "vue-router": "^4.5.1",
+    "vue-tabler-icons": "^2.21.0",
     "vuetify": "^3.8.1",
     "yup": "^1.6.1",
     "yup-locale-pt": "^0.0.9"

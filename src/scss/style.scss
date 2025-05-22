@@ -1,0 +1,27 @@
+@use './variables' as vars;
+@use 'vuetify/styles/main.sass';
+@use './override';
+@use './layout/container' with (
+  $border-radius-root: vars.$border-radius-root
+);
+@use './layout/sidebar' with (
+  $box-shadow: vars.$box-shadow,
+  $border-radius-root: vars.$border-radius-root
+);
+@use './layout/topbar';
+@use './components/VButtons' with (
+  $btn-letter-spacing: vars.$btn-letter-spacing
+);
+@use './components/VCard' with (
+  $card-text-spacer: vars.$card-text-spacer,
+  $card-item-spacer-xy: vars.$card-item-spacer-xy
+);
+@use './components/VInput';
+@use './components/VNavigationDrawer';
+@use './components/VShadow' with (
+  $box-shadow: vars.$box-shadow
+);
+@use './components/VTextField';
+@use './pages/dashboards';
+@use './pages/auth';
+// @use 'vue3-perfect-scrollbar/dist/vue3-perfect-scrollbar.css';
