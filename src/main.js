@@ -3,6 +3,7 @@ import router from './router'
 import { createApp } from 'vue'
 import vuetify from './plugins/vuetify'
 import pinia from './plugins/pinia'
+import axios from './plugins/axios'
 import '@/scss/style.scss'
 import { useMeStore } from '@/store/me.js'
 
@@ -18,6 +19,7 @@ meStore.getMe()
     app
       .use(router)
       .use(vuetify)
+      .provide('axios', axios)
       .mount('#app')
 
   })
